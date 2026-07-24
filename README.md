@@ -98,7 +98,7 @@ Add the following entry to execute the script every 2 minutes:
 [2026-07-24 16:04:00] 🧹 Log limit reached (100 lines). Truncating log.
 
 ```
-# 🛡️ Moniteur Léger de Santé Système et Processus Linux (version francaise)
+# 🛡️ Moniteur Léger de Santé Système et Processus Linux (Version Française )
 
 Un outil léger et automatisé de surveillance système basé sur Bash, conçu pour suivre l'utilisation des ressources système, émettre des alertes de seuil en temps réel et gérer automatiquement la rotation des journaux à l'aide du démon `cron` de Linux.
 
