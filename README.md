@@ -52,7 +52,7 @@ then :- nano log_processes.sh
 paste the script 
 
 🛠️ Script Overview (log_processes.sh)
-
+```
 #!/bin/bash
 
 LOG_FILE="process_log.txt"
@@ -77,7 +77,7 @@ echo "[$TIMESTAMP] Memory Usage: ${MEM_USAGE}%" >> "$LOG_FILE"
 if [ "$MEM_USAGE" -gt 80 ]; then
     echo "[$TIMESTAMP] ⚠️ WARNING: High memory usage at ${MEM_USAGE}%!" >> "$LOG_FILE"
 fi
-
+```
 
 Configure Cron Automation
 ``` 
@@ -158,7 +158,7 @@ nano log_processes.sh
 Coller le script.
 
 🛠️ Aperçu du script (log_processes.sh)
-
+```
 #!/bin/bash
 
 LOG_FILE="process_log.txt"
@@ -183,7 +183,7 @@ echo "[$TIMESTAMP] Memory Usage: ${MEM_USAGE}%" >> "$LOG_FILE"
 if [ "$MEM_USAGE" -gt 80 ]; then
     echo "[$TIMESTAMP] ⚠️ WARNING: High memory usage at ${MEM_USAGE}%!" >> "$LOG_FILE"
 fi
-
+```
 Configurer l'automatisation Cron
 
 ```
